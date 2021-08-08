@@ -4,6 +4,8 @@
 
 echo "Start"
 
+modprobe msr
+
 echo $(cat /proc/cpuinfo | grep "MHz") 
 
 
