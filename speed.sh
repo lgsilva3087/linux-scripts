@@ -1,5 +1,7 @@
 #! /bin/sh
 
+#Disables BD PROCHOT on my CPU (DELL Laptop)
+
 echo "Start"
 
 echo $(cat /proc/cpuinfo | grep "MHz") 
